@@ -1,37 +1,36 @@
+# 128MAll
 
+## NEU
 
-#                                                   128MAll
+---
 
-## NEU大三实训项目
+## Technology Selection
 
-———————————————————————————————————————
+The development frameworks selected are as shown below.
 
-## 技术选型
+| Development Framework | Version    |
+|-----------------------|------------|
+| Spring Boot           | 2.6.3      |
+| Spring Cloud          | 2021.0.1   |
+| Spring Cloud Alibaba  | 2021.0.1.0 |
+| MyBatis               | 3.5.9      |
+| Swagger               | 3.0.0      |
+| Lombok                | 1.18.16    |
 
-开发框架选择如下所示。
+The microservice component technology selections are as shown below.
 
-| 开发框架                 | 版本         |
-| -------------------- | ---------- |
-| Spring Boot          | 2.6.3      |
-| Spring Cloud         | 2021.0.1   |
-| Spring Cloud Alibaba | 2021.0.1.0 |
-| MyBatis              | 3.5.9      |
-| Swagger              | 3.0.0      |
-| Lombok               | 1.18.16    |
-
-微服务组件技术选型如下所示。
-
-|    技术     |             组件实现              |
-| :-------: | :---------------------------: |
-| 服务注册与服务发现 |             Nacos             |
-|   配置中心    |             Nacos             |
-|   服务通信    |          Open Feign           |
-|   负载均衡器   |   Spring Cloud Loadbalancer   |
-|   服务网关    |     Spring Cloud Gateway      |
-|    断路器    |           Sentinel            |
-|   链路追踪    |  Spring Cloud Sleuth、Zipkin   |
-|   分布式事务   |             Seata             |
-|   日志中心    | ElasticSearch、Logstash、Kibana |
+| Technology              | Component Implementation        |
+|-------------------------|---------------------------------|
+| Service Registration and Discovery | Nacos                |
+| Configuration Center    | Nacos                          |
+| Service Communication   | Open Feign                     |
+| Load Balancer           | Spring Cloud Loadbalancer      |
+| Service Gateway         | Spring Cloud Gateway           |
+| Circuit Breaker         | Sentinel                       |
+| Distributed Tracing     | Spring Cloud Sleuth, Zipkin    |
+| Distributed Transaction | Seata                          |
+| Log Center              | ElasticSearch, Logstash, Kibana |
+```
 
 ![technology-selection](./static-files/newbee-mall-cloud-technology-selection.png)
 
