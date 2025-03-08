@@ -1,0 +1,6 @@
+logging:
+  file:
+    name: D:\ELK\logs\app.log
+  level:
+    root: info
+    org.springframework.cloud.gateway: error
