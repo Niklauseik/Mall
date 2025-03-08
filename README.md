@@ -30,7 +30,6 @@ The microservice component technology selections are as shown below.
 | Distributed Tracing     | Spring Cloud Sleuth, Zipkin    |
 | Distributed Transaction | Seata                          |
 | Log Center              | ElasticSearch, Logstash, Kibana |
-```
 
 ![technology-selection](./static-files/newbee-mall-cloud-technology-selection.png)
 
